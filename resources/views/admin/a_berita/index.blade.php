@@ -30,7 +30,6 @@
                                     <th>Judul</th>
                                     <th>Kategori Berita</th>
                                     <th>Views</th>
-                                    <th>Status</th>
                                     <th>Publish</th>
                                     <th>Function</th>
                                 </tr>
@@ -42,7 +41,6 @@
                                         <td>{{ $item->judul }}</td>
                                         <td>{{ $item->kategori_beritas->nama }}</td>
                                         <td>{{ $item->catatan }}</td>
-                                        <td>{{ $item->gambar }}</td>
                                         <td>{{ $item->tanggal_publikasi }}</td>
                                         <td>
                                             <div class="d-flex justify-content-center">

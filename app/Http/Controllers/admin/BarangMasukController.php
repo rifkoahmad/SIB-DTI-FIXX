@@ -41,7 +41,6 @@ class BarangMasukController extends Controller
             'jumlah_barang' => 'required|integer|min:0',
             'tanggal_masuk' => 'required'
         ]);
-
         // Gunakan transaksi untuk memastikan konsistensi data
         DB::beginTransaction();
 

@@ -109,5 +109,13 @@ class RolesAndUsersSeeder extends Seeder
             'password' => Hash::make('12345678'),
         ]);
         $adminUser->assignRole($adminRole);
+
+        // Mengaitkan peran dengan pengguna
+        $adminUser1 = User::create([
+            'name' => 'Ahmad Rifko',
+            'email' => 'ahmad@gmail.com',
+            'password' => Hash::make('12345678'),
+        ]);
+        $adminUser1->assignRole($adminRole);
     }
 }

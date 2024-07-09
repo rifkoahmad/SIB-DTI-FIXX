@@ -154,7 +154,7 @@
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 mb-5">"Jika Anda menjual produk fisik, Anda memiliki banyak sisi positif dan ketidakpastian Q4, tetapi sekarang Anda harus mengelola uang Anda untuk mencapai K4 sehingga Anda dapat berinvestasi dalam membangun inventaris untuk kinerja yang berlebihan."</p>
-                        <a class="btn btn-warning btn-xl" href="/register">---> Register disini <----</a>
+                        <a class="btn btn-warning btn-xl" href="#">---> Register disini <----</a>
                     </div>
                 </div>
             </div>
